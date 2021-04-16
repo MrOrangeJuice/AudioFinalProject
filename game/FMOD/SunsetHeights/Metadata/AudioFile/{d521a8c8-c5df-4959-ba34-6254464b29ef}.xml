@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d521a8c8-c5df-4959-ba34-6254464b29ef}">
+		<property name="assetPath">
+			<value>enemyhit.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.36918367346938774</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1e331851-4ab1-477b-8b2e-504e907883bc}</destination>
+		</relationship>
+	</object>
+</objects>
