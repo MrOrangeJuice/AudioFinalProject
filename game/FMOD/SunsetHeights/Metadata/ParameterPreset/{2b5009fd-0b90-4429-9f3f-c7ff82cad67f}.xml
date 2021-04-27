@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{2b5009fd-0b90-4429-9f3f-c7ff82cad67f}">
+		<property name="name">
+			<value>Proximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ff9ebc02-8702-4583-ae30-ee52f401353b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b731cc8f-7fe7-41ed-8a75-9c84584eb73b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b731cc8f-7fe7-41ed-8a75-9c84584eb73b}">
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0c9ea0cc-025d-4884-a119-1f1f4499bf8a}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0c9ea0cc-025d-4884-a119-1f1f4499bf8a}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

@@ -20,6 +20,7 @@ namespace Platformer.Gameplay
             if (player.audioSource && player.respawnAudio)
                 player.audioSource.PlayOneShot(player.respawnAudio);
             */
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Slime Spawn");
             player.health.Increment();
             player.Teleport(model.spawnPoint.transform.position);
             player.jumpState = PlayerController.JumpState.Grounded;

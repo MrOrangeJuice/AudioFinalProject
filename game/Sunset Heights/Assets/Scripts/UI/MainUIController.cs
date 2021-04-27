@@ -17,7 +17,11 @@ namespace Platformer.UI
             {
                 var active = i == index;
                 var g = panels[i];
-                if (g.activeSelf != active) g.SetActive(active);
+                if (g.activeSelf != active)
+                {
+                    g.SetActive(active);
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Select");
+                }
             }
         }
 

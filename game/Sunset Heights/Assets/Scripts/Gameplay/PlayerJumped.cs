@@ -18,7 +18,7 @@ namespace Platformer.Gameplay
             if (player.audioSource && player.jumpAudio)
                 player.audioSource.PlayOneShot(player.jumpAudio);
             */
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Jump");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Jump");
         }
     }
 }

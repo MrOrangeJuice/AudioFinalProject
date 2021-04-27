@@ -21,7 +21,7 @@ namespace Platformer.Gameplay
             /*
             AudioSource.PlayClipAtPoint(token.tokenCollectAudio, token.transform.position);
             */
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Coin");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Miscellaneous/Coin");
         }
     }
 }

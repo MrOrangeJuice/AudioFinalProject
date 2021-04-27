@@ -28,7 +28,7 @@ namespace Platformer.Gameplay
                 if (player.audioSource && player.ouchAudio)
                     player.audioSource.PlayOneShot(player.ouchAudio);
                 */
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Player Damage");
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Player Damage");
                 player.animator.SetTrigger("hurt");
                 player.animator.SetBool("dead", true);
                 Simulation.Schedule<PlayerSpawn>(2);

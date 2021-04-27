@@ -19,6 +19,7 @@ namespace Platformer.Gameplay
             if (enemy._audio && enemy.ouch)
                 enemy._audio.PlayOneShot(enemy.ouch);
             */
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Enemy/Enemy Death");
         }
     }
 }

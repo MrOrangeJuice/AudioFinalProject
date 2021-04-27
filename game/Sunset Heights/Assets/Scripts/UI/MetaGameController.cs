@@ -50,12 +50,14 @@ namespace Platformer.UI
             {
                 Time.timeScale = 0;
                 mainMenu.gameObject.SetActive(true);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Switch");
                 foreach (var i in gamePlayCanvasii) i.gameObject.SetActive(false);
             }
             else
             {
                 Time.timeScale = 1;
                 mainMenu.gameObject.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Back");
                 foreach (var i in gamePlayCanvasii) i.gameObject.SetActive(true);
             }
             this.showMainCanvas = show;

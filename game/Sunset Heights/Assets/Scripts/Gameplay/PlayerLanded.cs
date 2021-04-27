@@ -13,7 +13,7 @@ namespace Platformer.Gameplay
 
         public override void Execute()
         {
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Landing");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Landing");
         }
     }
 }

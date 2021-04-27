@@ -59,3 +59,11 @@ The following packages were added:
   com.unity.connect.share@4.1.1
   com.unity.learn.iet-framework@1.2.3
   com.unity.postprocessing@3.0.3
+
+=== Mon Apr 26 16:29:14 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.timeline from version 1.4.6 to 1.4.7
