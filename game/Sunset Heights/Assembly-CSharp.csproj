@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\Core\Fuzzy.cs" />
      <Compile Include="Assets\Scripts\Mechanics\PatrolPath.cs" />
      <Compile Include="Assets\Scripts\Model\PlatformerModel.cs" />
+     <Compile Include="Assets\Scripts\Mechanics\WaterAmbience.cs" />
      <Compile Include="Assets\Scripts\Gameplay\EnemyDeath.cs" />
      <Compile Include="Assets\Scripts\UI\MetaGameController.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
