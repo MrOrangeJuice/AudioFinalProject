@@ -1466,5 +1466,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/parro/Documents/GitHub/AudioFinalProject/game/Sunset Heights/Builds/Sunset
+  playerPath: C:/Users/parro/Documents/GitHub/AudioFinalProject/game/Sunset Heights/Build/Sunset
     Heights.exe
