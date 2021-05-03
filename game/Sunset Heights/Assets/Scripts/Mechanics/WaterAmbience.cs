@@ -21,6 +21,5 @@ public class WaterAmbience : MonoBehaviour
         if (proximity > 1.0f) proximity = 1.0f;
         var emitter = GetComponent<FMODUnity.StudioEventEmitter>();
         emitter.SetParameter("Proximity", proximity);
-        Debug.Log(proximity);
     }
 }

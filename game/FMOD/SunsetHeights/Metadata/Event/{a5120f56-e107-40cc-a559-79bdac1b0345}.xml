@@ -53,7 +53,7 @@
 			<destination>{faf50d77-bdfa-4b50-b1e3-ded8590c6a85}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b9443efb-4d28-432c-9204-8a65234ab406}</destination>
+			<destination>{54f4fe99-d167-45c3-8f2b-bbe968a7c658}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8f7b5c1a-3884-4cd5-8c51-49839320d045}" />
@@ -96,10 +96,10 @@
 			<value>2.4000000000000004</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>1500</value>
+			<value>2000</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>50</value>
+			<value>10</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>2</value>

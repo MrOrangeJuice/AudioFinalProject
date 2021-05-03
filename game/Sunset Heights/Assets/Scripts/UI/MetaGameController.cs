@@ -46,12 +46,14 @@ namespace Platformer.UI
 
         void _ToggleMainMenu(bool show)
         {
+            var emitter = GetComponent<FMODUnity.StudioEventEmitter>();
             if (show)
             {
                 Time.timeScale = 0;
                 mainMenu.gameObject.SetActive(true);
                 FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Switch");
                 foreach (var i in gamePlayCanvasii) i.gameObject.SetActive(false);
+                emitter.SetParameter("Paused", 1);
             }
             else
             {
@@ -59,6 +61,7 @@ namespace Platformer.UI
                 mainMenu.gameObject.SetActive(false);
                 FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Back");
                 foreach (var i in gamePlayCanvasii) i.gameObject.SetActive(true);
+                emitter.SetParameter("Paused", 0);
             }
             this.showMainCanvas = show;
         }
