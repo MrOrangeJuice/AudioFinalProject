@@ -233,11 +233,11 @@ MonoBehaviour:
   Path: ../FMOD/SunsetHeights/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637556115333166943
+  lastModified: 637556471234576735
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1632
+    Value: 1690
   Exists: 1
 --- !u!114 &-1959667836603642298
 MonoBehaviour:
@@ -262,6 +262,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1039
+--- !u!114 &-1823011870168811800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1441650017422411647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +450,7 @@ MonoBehaviour:
   - {fileID: 255909800540108515}
   StringsBanks:
   - {fileID: -3566633065563170906}
-  stringsBankWriteTime: 637556115333166943
+  stringsBankWriteTime: 637556471234576735
   cacheVersion: 6
 --- !u!114 &255909800540108515
 MonoBehaviour:
@@ -447,7 +467,7 @@ MonoBehaviour:
   Path: ../FMOD/SunsetHeights/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637556115333127054
+  lastModified: 637556471234516909
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -859,7 +879,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 4736787806694585848}
+  - {fileID: -1823011870168811800}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
