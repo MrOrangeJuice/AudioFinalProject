@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{ee9e5342-5b3d-4d36-9477-a8b9ef235fe7}">
+		<property name="name">
+			<value>EnemyProximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ff9ebc02-8702-4583-ae30-ee52f401353b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ffb41b92-8e09-4eb9-a9a0-b0ab9e583a74}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ffb41b92-8e09-4eb9-a9a0-b0ab9e583a74}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{cfac43c4-feaf-4b98-9bb4-c5b475f12703}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{cfac43c4-feaf-4b98-9bb4-c5b475f12703}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

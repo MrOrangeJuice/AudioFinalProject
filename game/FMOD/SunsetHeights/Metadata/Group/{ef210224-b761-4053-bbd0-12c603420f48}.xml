@@ -14,7 +14,7 @@
 			<destination>{4554d01c-3763-47ac-a028-94306d1385fb}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b9443efb-4d28-432c-9204-8a65234ab406}</destination>
+			<destination>{67f5cc89-6c13-4b32-a545-f4729566c386}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{b2d6959c-c002-4894-bf62-f6074728007f}">
@@ -46,7 +46,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-73.3333588</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{40130e04-7f40-41e3-93fd-72e68cebbed6}">
@@ -54,7 +54,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>1</value>
 		</property>
 	</object>
 </objects>
