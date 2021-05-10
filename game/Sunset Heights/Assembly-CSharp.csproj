@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mechanics\PlayerProximity.cs" />
      <Compile Include="Assets\Scripts\Mechanics\SpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Gameplay\PlayerEnemyCollision.cs" />
      <Compile Include="Assets\Scripts\Core\HeapQueue.cs" />
